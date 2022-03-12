@@ -27,6 +27,7 @@ p {
 a {
   margin-top: 0;
   margin-right:10px;
+  margin-bottom: 10px;
   background-color: rgb(0, 0, 0, 0.6);
   padding: 10px;
   text-decoration: none;
@@ -109,10 +110,27 @@ h3 {
   margin: 0;
 }
 
+.number {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: -25px;
+  right: -25px;
+  font-weight: 30px;
+  line-height: 50px;
+}
+
 article {
   max-width: 50%;
   margin: 20px auto;
   padding: 50px;
+}
+
+.first-article-container, .second-article-container, .third-article-container  {
+  position: relative;
 }
 
 .first-article-container {
@@ -125,6 +143,12 @@ article {
 
 .third-article-container {
   background-color: #a69991;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
  
