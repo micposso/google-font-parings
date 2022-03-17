@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.hero-content {
+ display: none; 
+}
+
 body {
   font-family: 'Oswald', sans-serif;
   margin: 0;
